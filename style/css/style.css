@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
-
 *{
       margin: 0;
       padding: 0;
@@ -16,8 +15,6 @@
       padding: 1%;
       float: right;
       margin: 1% 2% 1% 0 ;
-      
-
 }
 .headerImageBox{
       width: 20%;
@@ -36,7 +33,6 @@
       width: 60%;
       padding: 3% 1%;
       float: left;
-
 }
 .headerName{
       text-align: justify;
@@ -45,7 +41,6 @@
       margin-top: 2%;
       font-family: 'JetBrains Mono', monospace;
       font-size: 2.5vh;
-
 }
 .headerBio{
       text-align: justify;
@@ -54,6 +49,4 @@
       margin-top: 2%;
       font-family: 'JetBrains Mono', monospace;
       font-size: 1.9vh;
-
-
 }

@@ -9,4 +9,3 @@ function HomeText(data) {
         setViaId("bio",data[0].bio);
         setViaId("name",data[0].name);
 }
-
