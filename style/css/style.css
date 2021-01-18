@@ -1,12 +1,59 @@
-   .title{ 
-      width: 50%; 
-      position: fixed; 
-      background: #ffffff; 
-      border-radius: 50px; 
-      padding: 5%; 
-      left: 50%; 
-      top: 50%; 
-      transform: translate(-50% , -50%);   
-      text-align:center;
-} 
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+.box{
+      background: #2f2f2f;
+      color:#ffffff;
+      padding:5%;
+      text-align: center;
+}
+.header{
+      width: 96%;
+      padding: 1%;
+      float: right;
+      margin: 1% 2% 1% 0 ;
+      
+
+}
+.headerImageBox{
+      width: 20%;
+      float: left;
+      padding: 1%;
+      text-align: center;
+}
+.headerImage{
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+}
+
+.headerBioBox{
+      width: 60%;
+      padding: 3% 1%;
+      float: left;
+
+}
+.headerName{
+      text-align: justify;
+      direction: ltr;
+      color:#ffffff;
+      margin-top: 2%;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 2.5vh;
+
+}
+.headerBio{
+      text-align: justify;
+      direction: ltr;
+      color:#ffffff;
+      margin-top: 2%;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.9vh;
+
+
+}

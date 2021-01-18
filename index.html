@@ -1,16 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link type="text/css" as="style" rel="stylesheet" href="style/css/style.css">
+	<title></title>
+</head>
+<body>
+	<div class="box header">
+		<div class="headerImageBox">
+			<img class="headerImage" src="img/whatWorldSee.jpg" alt="ProfilePicture" >
+		</div>
+		<div class="headerBioBox">
+			<h3 id="name" class="headerName"></h3>
+			<p id="bio" class="headerBio"></p>
+		</div>
 
-<html>
-	<head>
-		<title>Coming Soon</title>
-		    <link type="text/css" rel="stylesheet" as="style" href="style/css/style.css">
+	</div>
 
-	</head>
-
-	<h1 class='title'>
-	Coming Soon...
-	</h1>	
-<html>
+</body>
+</html>
 
 
 
 
+
+
+
+<script>
+	var Data={
+				title:"AerBir Resume",
+				bio:"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?\n",
+				name:"Arian Ebrahimi"
+
+	}
+	document.title=Data["title"];
+	document.getElementById("bio").innerHTML=Data["bio"];
+	document.getElementById("name").innerHTML=Data["name"];
+
+
+
+
+
+
+</script>
