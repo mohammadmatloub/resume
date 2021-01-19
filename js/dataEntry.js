@@ -6,7 +6,7 @@ function _isClass(des){
     if(des.includes(".")){return 1;}
     return 0;
 }
-function _innerSet(des , data){
+function _setInner(des , data){
         if(_isClass(des)) {
             document.getElementsByClassName(des.replace(".", "")).innerHTML = data
             return 1;
@@ -30,8 +30,8 @@ function _setAttr(des , attrName , attrVal){
 }
 function HomeText(data) {
         _setTittle(data[0].title);
-        _innerSet("#bio",data[0].bio);
-        _innerSet("#name",data[0].name);
+        _setInner("#bio",data[0].bio);
+        _setInner("#name",data[0].name);
         _setAttr("#profilePic" , 'src' ,data[0].profilePic)
 }
 
