@@ -1,11 +1,37 @@
-function setViaId(id  , data){
-    document.getElementById(id).innerHTML=data;
+function _isId(des){
+    if(des.includes("#")){return 1;}
+    return 0;
 }
-function setTittle(title){
+function _isClass(des){
+    if(des.includes(".")){return 1;}
+    return 0;
+}
+function _innerSet(des , data){
+        if(_isClass(des)) {
+            document.getElementsByClassName(des.replace(".", "")).innerHTML = data
+            return 1;
+        }else if(_isId(des)){
+            document.getElementById(des.replace("#","")).innerHTML=data;
+            return 1;
+        }
+        return 0;
+}
+function _setTittle(title){
     document.title=title;
 }
-function HomeText(data) {
-        setTittle(data[0].title);
-        setViaId("bio",data[0].bio);
-        setViaId("name",data[0].name);
+function _setAttr(des , attrName , attrVal){
+    if(_isClass(des)) {
+        document.getElementsByClassName(des.replace(".", "")).setAttribute(attrName , attrVal);
+        return 1;
+    }else if(_isId(des)){
+        document.getElementById(des.replace("#","")).setAttribute(attrName , attrVal);
+        return 1;
+    }
 }
+function HomeText(data) {
+        _setTittle(data[0].title);
+        _innerSet("#bio",data[0].bio);
+        _innerSet("#name",data[0].name);
+        _setAttr("#profilePic" , 'src' ,data[0].profilePic)
+}
+

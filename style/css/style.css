@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
 *{
       margin: 0;
       padding: 0;
@@ -19,19 +20,18 @@
 .headerImageBox{
       width: 20%;
       float: left;
-      padding: 1%;
       text-align: center;
+      padding: 1%;
 }
 .headerImage{
       text-align: center;
-      width: 100%;
-      height: 100%;
+      width: 80%;
+      height: 80%;
       border-radius: 50%;
 }
 
 .headerBioBox{
-      width: 60%;
-      padding: 3% 1%;
+      width:70%;
       float: left;
 }
 .headerName{
@@ -42,10 +42,10 @@
       font-family: 'JetBrains Mono', monospace;
       font-size: 2.5vh;
 }
-.headerBio{
+.headerBio {
       text-align: justify;
       direction: ltr;
-      color:#ffffff;
+      color: #ffffff;
       margin-top: 2%;
       font-family: 'JetBrains Mono', monospace;
       font-size: 1.9vh;

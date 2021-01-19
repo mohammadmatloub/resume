@@ -1,0 +1,105 @@
+/*Resposiver !!*/
+
+
+
+
+/*For Tablets & Small PC __Horizontal*/
+@media only screen and (max-width: 1024px) {
+    .header{
+        width: 100%;
+        float: right;
+        margin: 0 ;
+    }
+    .headerBioBox{
+        width:60%;
+        float: left;
+        padding: 1%;
+    }
+
+
+
+}
+/*For Tablets __Vertical*/
+@media only screen and (max-width: 768px) {
+    .header{
+        width: 100%;
+        float: right;
+        margin: 0 ;
+    }
+    .headerImageBox{
+        width: 40%;
+        float: left;
+        text-align: center;
+        padding: 1%;
+    }
+    .headerImage{
+        text-align: center;
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+    }
+    .headerBioBox{
+        width:100%;
+        float: left;
+        padding: 2%;
+    }
+
+
+}
+/*For Small __AKA Mobile*/
+@media only screen and (max-width: 500px) {
+    .header{
+        width: 100%;
+        float: right;
+        margin: 0;
+    }
+    .headerImageBox{
+        width: 80%;
+        margin-left: 10%;
+        float: left;
+        text-align: center;
+        padding: 1%;
+    }
+    .headerImage{
+        text-align: center;
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+    }
+    .headerBioBox{
+        width:95%;
+        float: left;
+        margin-left:2.5% ;
+    }
+
+}
+/*For Extra Small*/
+@media only screen and (max-width: 350px) {
+    .header{
+        width: 100%;
+        float: right;
+        margin: 0;
+    }
+    .headerImageBox{
+        width: 80%;
+        margin-left: 10%;
+        float: left;
+        text-align: center;
+        padding: 1%;
+    }
+    .headerImage{
+        text-align: center;
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+    }
+    .headerBioBox{
+        width:95%;
+        float: left;
+        margin-left:2.5% ;
+    }
+}
+
+/*note : Defaults are generated for Desktops and TV*/
+
+
