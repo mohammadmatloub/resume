@@ -4,7 +4,7 @@ This is a template for my works and almost you can call it a resume.
 You can also use it. <br>
 Maybe it becomes a template creator. <br>
 But for now, just use it manually.
-## Files
+# Files
 HTML
 ```
 index.html -> conteins index :)
@@ -18,10 +18,10 @@ JS
 js/data.js -> contains Data (JSON formated)
 js/dataEntry -> function for contant HTML.
 ```
-## Config and run
+# Config and run
 If you are reading this properly you wanna change ```js/data.js``` file and input your own data
 
-## Branches
+# Branches
 ```
 Main -> actuall template __underWork
 ```
