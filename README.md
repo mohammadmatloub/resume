@@ -11,7 +11,8 @@ index.html -> conteins index :)
 ```
 CSS
 ```
-style/css -> styles and colors
+style/css/style.css -> styles and colors
+style/css/resposive.css -> Resposive Via media querys 
 ```
 JS
 ```
