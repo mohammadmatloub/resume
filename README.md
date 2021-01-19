@@ -20,6 +20,8 @@ js/dataEntry -> function for contant HTML.
 ```
 # Config and run
 If you are reading this properly you wanna change ```js/data.js``` file and input your own data
+<br>
+Also you shall change ```ProfilePicture``` wich can be find in ```img/```
 
 # Branches
 ```
