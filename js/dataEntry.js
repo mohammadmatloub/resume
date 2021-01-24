@@ -28,10 +28,14 @@ function _setAttr(des , attrName , attrVal){
         return 1;
     }
 }
+function _setBgImg(bgImgSrc){
+    document.body.style.backgroundImage = "url("+bgImgSrc+")";
+}
 function HomeText(data) {
         _setTittle(data[0].title);
         _setInner("#bio",data[0].bio);
         _setInner("#name",data[0].name);
-        _setAttr("#profilePic" , 'src' ,data[0].profilePic)
+        _setAttr("#profilePic" , 'src' ,data[0].profilePic);
+        _setBgImg(data[0].bgImg);
 }
 

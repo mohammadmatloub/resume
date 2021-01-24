@@ -6,7 +6,13 @@
       box-sizing: border-box;
 }
 .box{
-      background: #2f2f2f;
+      overflow: hidden;
+      box-sizing: border-box;
+      position: relative;
+      width: 680px;
+      border-radius: 8px;
+      background: rgba(53, 53, 53, 0.47);
+      backdrop-filter: blur(62px);
       color:#ffffff;
       padding:5%;
       text-align: center;
