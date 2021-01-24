@@ -3,7 +3,7 @@
 HomeText([
     {
         "title":"AerBir Resume",
-        "bio":"What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?\n",
+        "bio":"Welcome, I am a Full-stack programmer. Full-stack means backend & frontend programming. leading AerBir inc. which provides WebApplications. \n You can contact me via below links.  ",
         "name":"Arian Ebrahimi",
 	    "profilePic":"img/pp.jpg",
 	    "bgImg":"img/bg.jpg",
