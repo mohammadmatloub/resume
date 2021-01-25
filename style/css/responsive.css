@@ -22,6 +22,10 @@
     .headerSocialLink {
         margin: 0 2% 0 0;
     }
+    .experienceBox{
+        width:100%;
+
+    }
 
 
 }
@@ -52,7 +56,10 @@
     .headerSocialLink {
         margin: 0 2% 0 0;
     }
+    .experienceBox{
+        width:100%;
 
+    }
 
 
 }
@@ -84,7 +91,10 @@
     .headerSocialLink {
         margin: 0 2% 0 0;
     }
+    .experienceBox{
+        width:100%;
 
+    }
 
 }
 /*For Extra Small*/
@@ -114,6 +124,10 @@
     }
     .headerSocialLink {
         margin: 0 2% 0 0;
+    }
+    .experienceBox{
+        width:100%;
+
     }
 
 
