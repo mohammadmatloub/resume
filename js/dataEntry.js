@@ -59,6 +59,7 @@ function Links(linksData) {
         }
 }
 function Skill(skillData) {
+
     let x=Object.keys(skillData).length;
     for ( i=0 ; i < x; i++){
         let _elementDiv = document.createElement("div");
@@ -66,16 +67,36 @@ function Skill(skillData) {
         _elementDiv.setAttribute("id","skill"+i);
         document.getElementById("skillRow").appendChild(_elementDiv);
         document.getElementById("skill"+i).innerHTML= "<svg viewbox=\"0 0 100 100\">" +
-        "<path class='skillPath'  stroke-dasharray='"+257.2*skillData[i].percent  /100+",257.2' fill='none' stroke-linecap='round' "+
-        " d='M50 10\n" +
-        "a 40 40 0 0 1 0 80\n" +
-        "40 40 0 0 1 0 -80\'/>\n" +
-        "<foreignObject class='foreignObject'>" +
-        "<i class='skillIcon "+skillData[i].icon+"'"+"></i>" +
-        "</foreignObject>" +
-        "</svg>"+
+            "<path class='skillPath'  stroke-dasharray='"+257.2*skillData[i].percent  /100+",257.2' fill='none' stroke-linecap='round' "+
+            " d='M50 10\n" +
+            "a 40 40 0 0 1 0 80\n" +
+            "40 40 0 0 1 0 -80\'/>\n" +
+            "<foreignObject class='foreignObject'>" +
+            "<i class='skillIcon "+skillData[i].icon+"'"+"></i>" +
+            "</foreignObject>" +
+            "</svg>"+
             "<p class='skillName'>"+skillData[i].title+
-        "</p>"
+            "</p>"
     }
+
+}
+function Experience(experienceData) {
+    let x=Object.keys(experienceData).length;
+    let i;
+    for ( i=0 ; i < x; i++){
+        let _elementDiv = document.createElement("div");
+        _elementDiv.setAttribute("class","box experienceBox");
+        _elementDiv.setAttribute("id","experience"+i);
+        document.getElementById("exBox").appendChild(_elementDiv);
+        document.getElementById("experience"+i).innerHTML=
+        "<div class='experienceBoxIconBox'>" +
+        "<i class='"+experienceData[i].icon+" experienceBoxIcon'></i>" +
+        "</div>" +
+        "<div class='experienceBoxContentBox'>" +
+        "<h3 class='experienceContentTitle'>"+experienceData[i].title+"</h3>" +
+        "<small class='experienceContentComp'>"+experienceData[i].at+"</small>" +
+        "<p class='experienceContentText'>"+experienceData[i].des+"</p>" +
+        "</div>" ;
+}
 
 }
