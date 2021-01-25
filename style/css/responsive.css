@@ -15,7 +15,13 @@
         float: left;
         padding: 1%;
     }
+    .skillBox{
+        width: 100%;
 
+    }
+    .headerSocialLink {
+        margin: 0 2% 0 0;
+    }
 
 
 }
@@ -43,6 +49,10 @@
         float: left;
         padding: 2%;
     }
+    .headerSocialLink {
+        margin: 0 2% 0 0;
+    }
+
 
 
 }
@@ -71,6 +81,10 @@
         float: left;
         margin-left:2.5% ;
     }
+    .headerSocialLink {
+        margin: 0 2% 0 0;
+    }
+
 
 }
 /*For Extra Small*/
@@ -98,6 +112,11 @@
         float: left;
         margin-left:2.5% ;
     }
+    .headerSocialLink {
+        margin: 0 2% 0 0;
+    }
+
+
 }
 
 /*note : Defaults are generated for Desktops and TV*/
