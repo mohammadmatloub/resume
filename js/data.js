@@ -1,65 +1,14 @@
-
-
 HomeText([
     {
-        "title":"AerBir Resume",
-        "bio":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n",
+        "title":"Arian Ebrahimi",
         "name":"Arian Ebrahimi",
-	    "profilePic":"img/pp.jpg",
-	    "bgImg":"img/bg.jpg",
+        "profilePic":"img/pp.jpg",
+        "email":"itsarianebrahimi@gmail.com",
+        "phone":"+989102625250",
+        "object":" I am looking for a challenging job with a rapidly growing organization that can provide me with a range of goals and job objectives within a contemporary and economical business setting. Mostly like to work in open-Source and GNU project. "
     }
 ]);
-
-Skill([
-    {
-        "percent":80,
-        "icon":"fab fa-git-alt",
-        "title":"git",
-
-    },
-    {
-        "percent":95,
-        "icon":"fab fa-html5",
-        "title":"Html",
-
-    },
-    {
-        "percent":90,
-        "icon":"fab fa-css3",
-        "title":"Css",
-
-    },
-    {
-        "percent":90,
-        "icon":"fab fa-js",
-        "title":"Java script",
-
-    },
-    {
-        "percent":68,
-        "icon":"fab fa-linux",
-        "title":"GNU/Linux",
-
-    },
-    {
-        "percent":100,
-        "icon":"fab fa-php",
-        "title":"PHP",
-
-    },
-    {
-        "percent":55,
-        "icon":"fa fa-network-wired",
-        "title":"Networking",
-    },
-
-]);
-
 Links([
-    {
-        "href":"tel:+989102625250",
-        "icon":"fas fa-mobile",
-    },
     {
         "href":"https://github.com/ribrea",
         "icon":"fab fa-github",
@@ -68,22 +17,100 @@ Links([
         "href":"https://www.linkedin.com/in/arian-ebrahimi-7a85781bb/",
         "icon":"fab fa-linkedin",
     },
-    {
-        "href":"mailto:itsarianebrahimi@gmail.com",
-        "icon":"fab fa-google",
-    },
-
 
 ]);
+Skill([
+    {
+        "title":"CSS",
 
+    },
+    {
+        "title":"HTML",
+    },
+    {
+        "title":"PHP",
+
+    },
+    {
+        "title":"JAVA SCRIPT",
+
+    },
+    {
+        "title":"C",
+
+    },
+    {
+        "title":"GNU/LINUX",
+
+    },
+
+]);
+Language([
+    {
+        "title":"Persian",
+
+    },
+    {
+        "title":"English",
+
+    },
+
+]);
 Experience([
     {
         "title":"Software engineer",
-        "at":"Freelancing (2015-present)",
+        "at":"Freelancing",
         "des":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        "icon":"fas fa-cactus",
+        "startDate":2015,
+        "endDate":2020,
     },
 
 
+]);
+Education([
+    {
+        "title":"University of Zanjan",
+        "study":"Computer Engineering",
+        "grade":"Bachelor's degree",
+        "endDate":2024,
+    },
+
 
 ]);
+Project([
+    {
+        "title":"Website design",
+        "link":"Kiyani.com",
+        "href":"http://kyani.gigfa.com/",
+        "des":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    },
+    {
+        "title":"GitHub",
+        "link":"MyGitHub",
+        "href":"https://github.com/ribrea/",
+        "des":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    },
+
+]);
+Activity([
+    {
+        "title":"Stack overflow",
+        "des":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    },
+    {
+        "title":"GNU community",
+        "des":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    },
+
+]);
+Article([
+
+]);
+
+
+
+
+
+
+
+
