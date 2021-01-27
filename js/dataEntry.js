@@ -133,7 +133,7 @@ function Project(projectData) {
         document.getElementById("projects").appendChild(_elementDiv);
         document.getElementById("project"+i).innerHTML=
             "<h4 class='projectBoxTitle'>"+projectData[i].title+"</h4>" +
-            "<h5 class='projectBoxLink'><a class='projectBoxLink' target='_blank' href='"+projectData[i].href+"'>"+projectData[i].link+"</a></h5>" +
+            "<h5 class='projectBoxLink'><a class='projectBoxLink' target='_blank' zz>"+projectData[i].link+"</a></h5>" +
             "<p class='projectContent'>"+projectData[i].des+"</p>";
     }
 }
