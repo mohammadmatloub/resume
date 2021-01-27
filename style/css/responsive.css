@@ -5,129 +5,43 @@
 
 /*For Tablets & Small PC __Horizontal*/
 @media only screen and (max-width: 1024px) {
-    .header{
-        width: 100%;
-        float: right;
-        margin: 0 ;
-    }
-    .headerBioBox{
-        width:60%;
-        float: left;
-        padding: 1%;
-    }
-    .skillBox{
-        width: 100%;
-
-    }
-    .headerSocialLink {
-        margin: 0 2% 0 0;
-    }
-    .experienceBox{
-        width:100%;
-
-    }
-
 
 }
 /*For Tablets __Vertical*/
 @media only screen and (max-width: 768px) {
-    .header{
+    .leftBar{
         width: 100%;
-        float: right;
-        margin: 0 ;
+        height: auto;
     }
-    .headerImageBox{
-        width: 40%;
-        float: left;
-        text-align: center;
-        padding: 1%;
+    .rightBar{
+        width: 100%;
+        height: auto;
     }
-    .headerImage{
-        text-align: center;
-        width: 80%;
-        height: 80%;
-        border-radius: 50%;
-    }
-    .headerBioBox{
-        width:100%;
-        float: left;
-        padding: 2%;
-    }
-    .headerSocialLink {
-        margin: 0 2% 0 0;
-    }
-    .experienceBox{
-        width:100%;
-
-    }
-
 
 }
 /*For Small __AKA Mobile*/
 @media only screen and (max-width: 500px) {
-    .header{
+    .leftBar{
         width: 100%;
-        float: right;
-        margin: 0;
+        height: auto;
     }
-    .headerImageBox{
-        width: 80%;
-        margin-left: 10%;
-        float: left;
-        text-align: center;
-        padding: 1%;
+    .rightBar{
+        width: 100%;
+        height: auto;
     }
-    .headerImage{
-        text-align: center;
-        width: 80%;
-        height: 80%;
-        border-radius: 50%;
-    }
-    .headerBioBox{
-        width:95%;
-        float: left;
-        margin-left:2.5% ;
-    }
-    .headerSocialLink {
-        margin: 0 2% 0 0;
-    }
-    .experienceBox{
-        width:100%;
 
-    }
+
 
 }
 /*For Extra Small*/
 @media only screen and (max-width: 350px) {
-    .header{
+    .leftBar{
         width: 100%;
-        float: right;
-        margin: 0;
+        height: auto;
     }
-    .headerImageBox{
-        width: 80%;
-        margin-left: 10%;
-        float: left;
-        text-align: center;
-        padding: 1%;
-    }
-    .headerImage{
-        text-align: center;
-        width: 80%;
-        height: 80%;
-        border-radius: 50%;
-    }
-    .headerBioBox{
-        width:95%;
-        float: left;
-        margin-left:2.5% ;
-    }
-    .headerSocialLink {
-        margin: 0 2% 0 0;
-    }
-    .experienceBox{
-        width:100%;
-
+    .rightBar{
+        width: 100%;
+        height: auto;
     }
 
 

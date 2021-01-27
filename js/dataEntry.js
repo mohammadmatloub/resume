@@ -188,7 +188,3 @@ function Links(linksData) {
         document.getElementById("headerSocialLinkA"+i).appendChild(_elementI);
     }
 }
-
-
-
-
