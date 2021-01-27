@@ -60,7 +60,7 @@ Experience([
     {
         "title":"Software engineer",
         "at":"Freelancing",
-        "des":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "des":"Working as a freelancer is a fun job to do, for me, working as a freelancer gave me chance to learn a lot and meet great people.",
         "startDate":2015,
         "endDate":2020,
     },
@@ -82,24 +82,26 @@ Project([
         "title":"Website design",
         "link":"Kiyani.com",
         "href":"http://kyani.gigfa.com/",
-        "des":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "des":"Programming and developing kyiani.com for Kyiani Sports. using PHP & HTML & CSS & JAVASCRIPT. The website will be going to deploy soon. you can see the demo at http://kyani.gigfa.com/."
+
+
     },
     {
         "title":"GitHub",
         "link":"MyGitHub",
         "href":"https://github.com/ribrea/",
-        "des":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "des":"You can see my open source project at my github @ribrea",
     },
 
 ]);
 Activity([
     {
         "title":"Stack overflow",
-        "des":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "des":"Stack Overflow is a question and answer site for professional and enthusiast programmers. It is a privately held website, the flagship site of the Stack Exchange Network, created in 2008 by Jeff Atwood and Joel Spolsky. It features questions and answers on a wide range of topics in computer programming",
     },
     {
         "title":"GNU community",
-        "des":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "des":"GNU is an extensive collection of free software, which can be used as an operating system or can be used in parts with other operating systems. The use of the completed GNU tools led to the family of operating systems popularly known as Linux. Most of GNU is licensed under the GNU Project's own General Public License."
     },
 
 ]);
