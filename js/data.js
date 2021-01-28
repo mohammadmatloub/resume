@@ -70,8 +70,8 @@ Experience([
     },
     {
         "title":"IT man",
-        "at":"Actus iran",
-        "des":"I worked as an IT man for a year in Actus and wrote a script for automatic granting computer config with C language. ",
+        "at":"Aptus iran",
+        "des":"I worked as an IT man for a year in Aptus and wrote a script for automatic granting computer config with C language. ",
         "startDate":2018,
         "endDate":2019,
     },
