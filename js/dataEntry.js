@@ -181,9 +181,8 @@ function Links(linksData) {
         let _elementI = document.createElement("i");
         _elementA.setAttribute("href",linksData[i].href);
         _elementA.setAttribute("id", "headerSocialLinkA"+i);
-        _elementA.setAttribute("class", "socialIcon");
         _elementA.setAttribute("target", "_blank");
-        _elementI.setAttribute("class",linksData[i].icon+" headerSocialLink");
+        _elementI.setAttribute("class",linksData[i].icon+" socialIcon");
         document.getElementById("socials").appendChild(_elementA);
         document.getElementById("headerSocialLinkA"+i).appendChild(_elementI);
     }

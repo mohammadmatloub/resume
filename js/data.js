@@ -17,6 +17,10 @@ Links([
         "href":"https://www.linkedin.com/in/arian-ebrahimi-7a85781bb/",
         "icon":"fab fa-linkedin",
     },
+    {
+        "href":"pdf/cv.pdf",
+        "icon":"fa fa-file-pdf",
+    },
 
 ]);
 Skill([
