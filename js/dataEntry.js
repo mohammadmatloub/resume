@@ -83,7 +83,7 @@ function Experience(experienceData) {
         _elementDiv.setAttribute("class","experienceBoxBox");
         _elementDiv.setAttribute("id","experience"+i);
         document.getElementById("experiences").appendChild(_elementDiv);
-        let exYear=experienceData[0].endDate-experienceData[i].startDate;
+        let exYear=experienceData[i].endDate-experienceData[i].startDate;
         document.getElementById("experience"+i).innerHTML=
             "<h4 class='experienceTitle'>"+experienceData[i].title+"</h4>" +
             "<h5 class='experienceRole' >"+experienceData[i].at+"</h5>" +
