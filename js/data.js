@@ -76,7 +76,6 @@ Experience([
         "endDate":2019,
     },
 
-
 ]);
 Education([
     {
