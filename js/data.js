@@ -24,30 +24,21 @@ Links([
 
 ]);
 Skill([
-    {
-        "title":"CSS",
-
-    },
-    {
-        "title":"HTML",
-    },
-    {
-        "title":"PHP",
-
-    },
-    {
-        "title":"JAVA SCRIPT",
-
-    },
-    {
-        "title":"C",
-
-    },
-    {
-        "title":"GNU/LINUX",
-
-    },
-
+	{
+		"title":"Full stack programming",
+	},
+	{
+		"title":"GNU/Linux",
+	},
+	{
+		"title":"Project managment"
+	},
+	{
+		"title":"git"
+	},
+	{
+		"title":"DevOps"
+	}
 ]);
 Language([
     {
