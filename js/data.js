@@ -31,7 +31,7 @@ Skill([
 		"title":"GNU/Linux",
 	},
 	{
-		"title":"Project managment"
+		"title":"Project MANAGEMENT"
 	},
 	{
 		"title":"git"
