@@ -135,11 +135,14 @@ b{
       width: 80%;
       font-family: roboto,sans-serif;
       font-weight: 500;
-      font-size: 1.85vh;
-      text-align: justify;
+      font-size: 1.9vh;
+      text-align: left;
       direction: ltr;
       color:#666666;
       padding: 2%;
+      font-style: normal;
+      line-height: 1.5;
+
 }
 
 .experienceBox{
@@ -177,9 +180,11 @@ b{
       font-size: 1.8vh;
       padding: .5% 0;
       width: 70%;
-      text-align: justify;
+      text-align: left;
       direction: ltr;
       color: #666666;
+      line-height: 1.5;
+
 
 }
 .experienceTime{
@@ -226,9 +231,11 @@ b{
       font-size: 1.8vh;
       padding: .5% 0;
       width: 70%;
-      text-align: justify;
+      text-align: left;
       direction: ltr;
       color: #666666;
+      line-height: 1.5;
+
 
 }
 .educationTime{
@@ -275,9 +282,11 @@ b{
       font-size: 1.8vh;
       padding: .5% 0;
       width: 70%;
-      text-align: justify;
+      text-align: left;
       direction: ltr;
       color: #666666;
+      line-height: 1.5;
+
 }
 .activityBox{
       width: 100%;
@@ -302,9 +311,10 @@ b{
       font-size: 1.8vh;
       padding: .5% 0;
       width: 70%;
-      text-align: justify;
+      text-align: left;
       direction: ltr;
       color: #666666;
+      line-height: 1.5;
 }
 
 .articleBox{
@@ -342,9 +352,11 @@ b{
       font-size: 1.8vh;
       padding: .5% 0;
       width: 70%;
-      text-align: justify;
+      text-align: left;
       direction: ltr;
       color: #666666;
+      line-height: 1.5;
+
 }
 .articlesTimeAt{
       font-family: roboto,sans-serif;
