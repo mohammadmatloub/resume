@@ -30,9 +30,6 @@ function _setAttr(des , attrName , attrVal){
 }
 
 
-
-
-
 function HomeText(homeData) {
     _setTittle(homeData[0].title);
     _setInner("#name",homeData[0].name);
@@ -41,7 +38,6 @@ function HomeText(homeData) {
     _setInner("#object",homeData[0].object);
     _setAttr("#profilePic" , 'src' ,homeData[0].profilePic);
 }
-
 function Skill(skillData) {
     let x=Object.keys(skillData).length;
     if (x===0){
@@ -187,3 +183,8 @@ function Links(linksData) {
         document.getElementById("headerSocialLinkA"+i).appendChild(_elementI);
     }
 }
+
+
+
+
+
