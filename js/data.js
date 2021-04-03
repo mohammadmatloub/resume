@@ -66,6 +66,14 @@ Experience([
         "startDate":2018,
         "endDate":2019,
     },
+    {
+        "title":"Back-end Developer",
+        "at":"HamyarMiner",
+        "des":"Working with Hamyar miner is a great experience, good peapol... Nice mind !",
+        "startDate":2020,
+        "endDate":2021,
+    },
+    
 
 ]);
 Education([
