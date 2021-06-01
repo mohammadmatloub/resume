@@ -74,6 +74,13 @@ Experience([
         "endDate":2021,
     },
     
+    {
+        "title":"Product Manager",
+        "at":"HamyarMiner",
+        "des":"Working with Hamyar miner is a great experience, good people... Nice mind !",
+        "startDate":2021,
+        "endDate":2022,
+    },
 
 ]);
 Education([
