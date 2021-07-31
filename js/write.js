@@ -28,6 +28,11 @@ function _setAttr(des , attrName , attrVal){
         return 1;
     }
 }
+function _fixWidth(one,two, height) {
+    document.getElementById(one).style.height =height + "vh" ;
+    document.getElementById(two).style.height =height + "vh" ;
+}
+_fixWidth("Right_bar", "Left_bar", 250)
 
 
 function HomeText(homeData) {
@@ -65,6 +70,21 @@ function Language(langData) {
         _elementDiv.setAttribute("id","lang"+i);
         document.getElementById("lang").appendChild(_elementDiv);
         document.getElementById("lang"+i).innerHTML= "<p>"+langData[i].title+"</p>"
+    }
+
+}
+function Framework(frame_data) {
+
+    let x=Object.keys(frame_data).length;
+    if (x===0){
+        document.getElementById("framework").remove()
+    }
+    for ( i=0 ; i < x; i++){
+        let _elementDiv = document.createElement("p");
+        _elementDiv.setAttribute("class"," skill");
+        _elementDiv.setAttribute("id","framework"+i);
+        document.getElementById("framework").appendChild(_elementDiv);
+        document.getElementById("framework"+i).innerHTML= "<p>"+frame_data[i].language + " " +  frame_data[i].title+"</p>"
     }
 
 }

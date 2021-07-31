@@ -14,10 +14,9 @@ b{
 .leftBar{
       width: 25%;
       background: #f7f7f7;
-      height: 100vh;
+      height: 150vh;
       padding: 2%;
       float: left;
-      overflow: hidden;
 
 }
 .avatarBox{
@@ -114,9 +113,7 @@ b{
 /*------------------*/
 .rightBar{
       width: 75%;
-      height: 100vh;
       float: left;
-      overflow: auto;
       padding: 3%;
 }
 .objectBox{

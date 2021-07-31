@@ -51,22 +51,34 @@ Language([
     },
 
 ]);
+Framework([
+    {
+        "title":"Django",
+        "language" :"Python"
+    },
+    {
+        "title":"Laravel",
+        "language" :"PHP"
+    },
+    {
+        "title":"Symfony",
+        "language" :"PHP"
+    },
+    {
+        "title":"Angular",
+        "language" :"Typescript"
+    },
+]);
 Experience([
-    {
-        "title":"Software engineer",
-        "at":"Freelancing",
-        "des":"Working as a freelancer is a fun job to do, for me, working as a freelancer gave me chance to learn a lot and meet great people.",
-        "startDate":2015,
-        "endDate":2020,
+	 {
+        "title":"Product Manager",
+        "at":"HamyarMiner",
+        "des":"Working with Hamyar miner is a great experience, good people... Nice mind !",
+        "startDate":2021,
+        "endDate":2022,
     },
-    {
-        "title":"IT man",
-        "at":"Aptus iran",
-        "des":"I worked as an IT man for a year in Aptus and wrote a script for automatic granting computer config with C language. ",
-        "startDate":2018,
-        "endDate":2019,
-    },
-    {
+    
+        {
         "title":"Back-end Developer",
         "at":"HamyarMiner",
         "des":"Working with Hamyar miner is a great experience, good people... Nice mind !",
@@ -74,13 +86,22 @@ Experience([
         "endDate":2021,
     },
     
-    {
-        "title":"Product Manager",
-        "at":"HamyarMiner",
-        "des":"Working with Hamyar miner is a great experience, good people... Nice mind !",
-        "startDate":2021,
-        "endDate":2022,
+   {
+        "title":"IT man",
+        "at":"Aptus iran",
+        "des":"I worked as an IT man for a year in Aptus and wrote a script for automatic granting computer config with C language. ",
+        "startDate":2018,
+        "endDate":2019,
     },
+
+    {
+        "title":"Software engineer",
+        "at":"Freelancing",
+        "des":"Working as a freelancer is a fun job to do, for me, working as a freelancer gave me chance to learn a lot and meet great people.",
+        "startDate":2015,
+        "endDate":2020,
+    }
+
 
 ]);
 Education([
@@ -95,18 +116,22 @@ Education([
 ]);
 Project([
     {
-        "title":"Website design",
-        "link":"Kiyani.com",
-        "href":"http://kyani.gigfa.com/",
-        "des":"Programming and developing kyiani.com for Kyiani Sports. using PHP & HTML & CSS & JAVASCRIPT. The website will be going to deploy soon. you can see the demo at http://kyani.gigfa.com/."
-
-
+        "title":"Contributing on Django Core",
+        "link":"https://github.com/ribrea/django",
+        "href":"https://github.com/ribrea/django",
+        "des":"Django is a Python-based free and open-source web framework that follows the model–template–views architectural pattern. It is maintained by the Django Software Foundation, an American independent organization established as a 501 non-profit."
     },
     {
-        "title":"GitHub",
-        "link":"MyGitHub",
-        "href":"https://github.com/ribrea/",
-        "des":"You can see my open source project at my github @ribrea",
+        "title":"Contributing on Django Rest Framework",
+        "link":"https://github.com/ribrea/django-rest-framework",
+        "href":"https://github.com/ribrea/django-rest-framework",
+        "des":"Web APIs for Django",
+    },
+    {
+        "title":"Blogo",
+        "link":"https://github.com/ribrea/blogo",
+        "href":"https://github.com/ribrea/blogo",
+        "des":"A way to crate blog ",
     },
 
 ]);
