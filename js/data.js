@@ -71,7 +71,7 @@ Framework([
 ]);
 Experience([
 	 {
-        "title":""Chief technology officer,
+        "title":"Chief technology officer",
         "at":"HamyarMiner",
         "des":"Working with Hamyar miner is a great experience, good people... Nice mind !",
         "startDate":2021,
