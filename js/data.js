@@ -66,14 +66,14 @@ Experience([
     {
         "title":"Chief Technology Officer",
         "at":"Hamyar Miner",
-        "des" : "Hamyar Miner consists of a young and experienced team in the field of digital currencies, which was familiar with this market in mid-2012 and has been earning foreign currency, mainly bitcoins, since those years. We started bitcoin mining in 2013 with the equipment and software of those years, and from the beginning of 2014, due to the unreasonable costs of personal mining, we moved to cloud mining. In 2009, we decided to take the right step to earn foreign exchange income for our dear compatriots by building and developing the Hamyar Miner brand.",
+        "des": "Hamyar Miner consists of a young and experienced team in the field of digital currencies, which was familiar with this market in mid-2012 and has been earning foreign currency, mainly bitcoins, since those years. We started bitcoin mining in 2013",
         "startDate":2019,
         "endDate":2020,
     },
     {
         "title":"Lead Web Developer",
         "at":"Hamyar Miner",
-        "des" : "Hamyar Miner consists of a young and experienced team in the field of digital currencies, which was familiar with this market in mid-2012 and has been earning foreign currency, mainly bitcoins, since those years. We started bitcoin mining in 2013 with the equipment and software of those years, and from the beginning of 2014, due to the unreasonable costs of personal mining, we moved to cloud mining. In 2009, we decided to take the right step to earn foreign exchange income for our dear compatriots by building and developing the Hamyar Miner brand.",
+        "des": "Hamyar Miner consists of a young and experienced team in the field of digital currencies, which was familiar with this market in mid-2012 and has been earning foreign currency, mainly bitcoins, since those years. We started bitcoin mining in 2013",
         "startDate":2019,
         "endDate":2020,
     },
