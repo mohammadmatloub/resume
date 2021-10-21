@@ -69,7 +69,6 @@ Experience([
         "startDate":2020,
         "endDate":2021,
     },
-    
     {
         "title":"Chief Technology Officer",
         "at":"Hamyar Miner",
