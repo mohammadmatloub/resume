@@ -62,6 +62,13 @@ Framework([
     },
 ]);
 Experience([
+    {
+        "title":"Back-end Developer",
+        "at":"Supnex",
+        "des": "Our goal is to provide simple, beautiful, and effective software solutions your team will enjoy using. From performance and uptime monitoring to large scale log management, we have a variety of solutions to help make your products the best they can be.",
+        "startDate":2020,
+        "endDate":2021,
+    },
     
     {
         "title":"Chief Technology Officer",
