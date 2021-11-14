@@ -29,10 +29,10 @@ function _setAttr(des , attrName , attrVal){
     }
 }
 function _fixWidth(one,two, height) {
-    document.getElementById(one).style.height =height + "vh" ;
-    document.getElementById(two).style.height =height + "vh" ;
+    document.getElementById(one).style.height =height + "%" ;
+    document.getElementById(two).style.height =height + "%" ;
 }
-_fixWidth("Right_bar", "Left_bar", 320)
+_fixWidth("Right_bar", "Left_bar", 100  )
 
 
 function HomeText(homeData) {
